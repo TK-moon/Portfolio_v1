@@ -99,10 +99,30 @@ html {
 }
 
 a {
+  position: relative;
   text-decoration: none;
   color: inherit;
   font-style: normal;
+  width: auto;
 }
+a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background-color: black;
+  -webkit-transition: all ease-in-out .2s 0s;
+  transition: all ease-in-out .2s 0s;
+}
+a:hover::after {
+  width: 100%;
+}
+/* a:hover {
+  text-decoration: underline;
+} */
 p {
   margin: 0;
 }
@@ -174,6 +194,12 @@ html, body {
   height: auto !important;
   width: 100%;
   height: 100%;
+}
+.flickity-button {
+  background: transparent !important;
+}
+.flickity-button[disabled] {
+  display: none !important;
 }
 
 @media only screen and (max-width: 1200px) { /* Medium */
@@ -425,7 +451,7 @@ html, body {
   padding: 10px 30px;
 }
 .grid-contents a {
-  display: block;
+  /* display: block; */
 }
 .grid-contents ol, .grid-contents ul {
   list-style: none;
