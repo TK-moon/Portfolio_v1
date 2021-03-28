@@ -14,17 +14,7 @@
     <meta property="og:descriptioin" content="TK Moon's portfolio" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" type='text/css' />
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" type='text/css' />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YN81WN59KZ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-YN81WN59KZ');
-    </script>
   </head>
   <body>
     <header id="header">
@@ -40,19 +30,19 @@
       </div>
     </header>
     <section id="contents">
-      <div id="mainPage" class="page-full padding-default">
+      <section id="mainPage" class="page-full padding-default">
         <h1 id="headLine" data-aos="fade-up" data-aos-duration="1000">안녕하세요,<br><span id="name" class="text-bolder" data-aos="zoom-in-up" data-aos-delay="500">문태경</span>입니다.</h1>
         <p class="mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Web Developer / Frontend / Backend</p>
-        <p class="text-secondary text-300 mt-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">#심플 #깔끔함 #미니멀 #반응형</p>
-      </div>
-      <div id="about" class="padding-default">
+        <p class="text-secondary text-300 mt-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">#반응형 #포트폴리오</p>
+      </section>
+      <section id="about" class="padding-default">
         <div class="page-title">
           <h1>ABOUT</h1>
         </div>
-          <div class="text-center mb-3">
+          <article class="text-center mb-3">
             <p>스타트업 출신 풀스택 개발자 문태경입니다. 제가 만든 결과물에 사람들이 만족할 때 뿌듯함을 느낍니다.</p>
             <p>소통을 중요하게 생각하며, 늘 새로운 것에 도전하고 경험을 통해 배워 나가는걸 좋아합니다.</p>
-          </div>
+          </article>
           <div id="aboutGrid">
             <div class="grid-containter box-shadow-default" data-aos="fade-right" data-aos-offset="300">
               <div class="grid-title">PROFILE</div>
@@ -118,95 +108,94 @@
               </div>
             </div>
           </div>
+        </section>
+      </div>
+      <section id="portfolio">
+        <div class="page-title">
+          <h1>PORTFOLIO</h1>
         </div>
-      </div>
-    </section>
-    <section id="portfolio">
-      <div class="page-title">
-        <h1>PORTFOLIO</h1>
-      </div>
-        <div class="portfolio-container">
-          <div class="swiper-container box-shadow-default" data-aos="fade-left" data-aos-offset="300">
-            <figure class="portfolio-figure swiper-wrapper">
-              <!-- 2021.02.01 AIBID 요청으로 이미지 삭제 -->
-              <div class="swiper-slide"><img src="assets/images/noImage.png" loading="lazy" align="center" class="portfolio-figure-img-default" /></div>
-              <!-- <div class="swiper-slide"><img src="assets/images/portfolio1-1.png" align="center" class="portfolio-figure-img-default" /></div> -->
-              <!-- <div class="swiper-slide"><img src="assets/images/portfolio1-2.png" align="center" class="portfolio-figure-img-default" /></div> -->
-              <!-- <figcaption>G2B ERP/CRM Program</figcaption> -->
-            </figure>
+          <div class="portfolio-container">
+            <div class="swiper-container box-shadow-default" data-aos="fade-left" data-aos-offset="300">
+              <figure class="portfolio-figure swiper-wrapper">
+                <!-- 2021.02.01 AIBID 요청으로 이미지 삭제 -->
+                <div class="swiper-slide"><img src="assets/images/noImage.png" alt="Confidential_Image" loading="lazy" align="center" class="portfolio-figure-img-default" /></div>
+                <!-- <div class="swiper-slide"><img src="assets/images/portfolio1-1.png" align="center" class="portfolio-figure-img-default" /></div> -->
+                <!-- <div class="swiper-slide"><img src="assets/images/portfolio1-2.png" align="center" class="portfolio-figure-img-default" /></div> -->
+                <!-- <figcaption>G2B ERP/CRM Program</figcaption> -->
+              </figure>
+            </div>
+            <div class="portfolio-description text-300" data-aos="fade-right" data-aos-offset="300">
+              <p class="text-bold">1. ERP/CRM 통합 프로그램</p>
+              <article class="mt-2">Nuxt.js와 Node.js를 사용하여 ERP와 CRM을 통합 개발하였습니다. 공공데이터포털 API 및 공공기관 전자조달 페이지에서 크롤링한 데이터를 기반으로 MariaDB 데이터베이스를 구축하였으며, 이 데이터를 바탕으로 공고조회, 동향분석, 입찰가 제시, 영업정보, 통계 등의 기능을 제작하고 운영하였습니다.</article>
+              <p class="mt-1">#Nuxt.js #Node.js #REST_API #MariaDB #NPM #Bootstrap</p>
+              <p>Planning, Frontend, Backend, Database, Design 담당</p>
+            </div>
           </div>
-          <div class="portfolio-description text-300" data-aos="fade-right" data-aos-offset="300">
-            <p class="text-bold">1. ERP/CRM 통합 프로그램</p>
-            <article class="mt-2">Nuxt.js와 Node.js를 사용하여 ERP와 CRM을 통합 개발하였습니다. 공공데이터포털 API 및 공공기관 전자조달 페이지에서 크롤링한 데이터를 기반으로 MariaDB 데이터베이스를 구축하였으며, 이 데이터를 바탕으로 공고조회, 동향분석, 입찰가 제시, 영업정보, 통계 등의 기능을 제작하고 운영하였습니다.</article>
-            <p class="mt-1">#Nuxt.js #Node.js #REST_API #MariaDB #NPM #Bootstrap</p>
-            <p>Planning, Frontend, Backend, Database, Design 담당</p>
+          <div class="portfolio-container reverse-align">
+            <div class="swiper-container box-shadow-default" data-aos="fade-right" data-aos-offset="300">
+              <figure class="portfolio-figure swiper-wrapper">
+                <!-- 2021.02.01 AIBID 요청으로 이미지 삭제 -->
+                <div class="swiper-slide"><img src="assets/images/noImage.png" alt="Confidential_Image" loading="lazy" align="center" class="portfolio-figure-img-default" /></div>
+                <!-- <div class="swiper-slide"><img src="assets/images/portfolio2-2.png" align="center" class="portfolio-figure-img-default" /></div> -->
+                <!-- <figcaption>G2B ERP/CRM Program</figcaption> -->
+              </figure>
+            </div>
+            <div class="portfolio-description text-300" data-aos="fade-left" data-aos-offset="300">
+              <p class="text-bold">2. 조달청 openAPI, 전자조달 사이트 크롤링 프로그램</p>
+              <article class="mt-2">한국전력공사, 토지주택공사 전자조달 사이트와 공공데이터포털 조달청 API에 있는 데이터들을 실시간으로 데이터베이스에 인서트 및 업데이트하는 Node.js 기반 크롤러를 개발하였습니다.</article>
+              <p class="mt-1">#Node.js #MariaDB #NPM #Crawler #Qrate #Request_Promise</p>
+              <p>Backend, Database 담당</p>
+            </div>
           </div>
+          <div class="portfolio-container">
+            <div class="swiper-container box-shadow-default" data-aos="fade-left" data-aos-offset="300">
+              <figure class="portfolio-figure swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/images/portfolio3-1.png" alt="Portfolio-Image-3-1" loading="lazy" align="center" class="portfolio-figure-img-vertical" /></div>
+                <div class="swiper-slide"><img src="assets/images/portfolio3-2.png" alt="Portfolio-Image-3-2" loading="lazy" align="center" class="portfolio-figure-img-vertical" /></div>
+              </figure>
+            </div>
+            <div class="portfolio-description text-300" data-aos="fade-right" data-aos-offset="300">
+              <p class="text-bold">3. 비비드플러스 고객사 모바일페이지 리뉴얼 퍼블리싱</p>
+              <article class="mt-2">비비드플러스로부터 디자인을 받아 고객사 두 곳의 모바일 페이지 리뉴얼 퍼블리싱 작업을 진행하였습니다. 트래픽 제한을 고려해 HTML/CSS/JS 만으로 제작되었으며, 퍼블리싱과 SEO 작업 등을 담당하였습니다.</article>
+              <p class="mt-1">#HTML #CSS #JS #SEO</p>
+              <p>디자인 제외 개발 및 퍼블리싱 담당</p>
+            </div>
+          </div>
+          <!-- <div class="portfolio-container">
+            <div class="swiper-container box-shadow-default" data-aos="fade-left" data-aos-offset="300">
+              <figure class="portfolio-figure swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/images/portfolio4-1.png" align="center" class="portfolio-figure-img-vertical" /></div>
+                <div class="swiper-slide"><img src="assets/images/portfolio4-2.png" align="center" class="portfolio-figure-img-vertical" /></div>
+                <div class="swiper-slide"><img src="assets/images/portfolio4-3.png" align="center" class="portfolio-figure-img-vertical" /></div>
+                <div class="swiper-slide"><img src="assets/images/portfolio4-4.png" align="center" class="portfolio-figure-img-vertical" /></div>
+              </figure>
+            </div>
+            <div class="portfolio-description text-300" data-aos="fade-right" data-aos-offset="300">
+              <p class="text-bold">3. Opentrack 웹사이트 유지보수</p>
+              <article class="mt-2">Opentrack 웹 기반 교육용 동영상 서비스 플랫폼 프론트엔드 유지보수 업무를 담당하였습니다. 주로 디자이너와 협업하여 UI, 반응형, 터치 제스쳐 지원과 인터랙티브한 UX 구현에 집중하였습니다.</article>
+              <p class="mt-1">#Vue.js #HTML5, #SASS, #Touch_Gesture</p>
+            </div>
+          </div> -->
         </div>
-        <div class="portfolio-container reverse-align">
-          <div class="swiper-container box-shadow-default" data-aos="fade-right" data-aos-offset="300">
-            <figure class="portfolio-figure swiper-wrapper">
-              <!-- 2021.02.01 AIBID 요청으로 이미지 삭제 -->
-              <div class="swiper-slide"><img src="assets/images/noImage.png" loading="lazy" align="center" class="portfolio-figure-img-default" /></div>
-              <!-- <div class="swiper-slide"><img src="assets/images/portfolio2-2.png" align="center" class="portfolio-figure-img-default" /></div> -->
-              <!-- <figcaption>G2B ERP/CRM Program</figcaption> -->
-            </figure>
-          </div>
-          <div class="portfolio-description text-300" data-aos="fade-left" data-aos-offset="300">
-            <p class="text-bold">2. 조달청 openAPI, 전자조달 사이트 크롤링 프로그램</p>
-            <article class="mt-2">한국전력공사, 토지주택공사 전자조달 사이트와 공공데이터포털 조달청 API에 있는 데이터들을 실시간으로 데이터베이스에 인서트 및 업데이트하는 Node.js 기반 크롤러를 개발하였습니다.</article>
-            <p class="mt-1">#Node.js #MariaDB #NPM #Crawler #Qrate #Request_Promise</p>
-            <p>Backend, Database 담당</p>
-          </div>
+      </section>
+      <section id="contacts">
+        <div class="page-title">
+          <h1>CONTACTS</h1>
         </div>
-        <div class="portfolio-container">
-          <div class="swiper-container box-shadow-default" data-aos="fade-left" data-aos-offset="300">
-            <figure class="portfolio-figure swiper-wrapper">
-              <div class="swiper-slide"><img src="assets/images/portfolio3-1.png" loading="lazy" align="center" class="portfolio-figure-img-vertical" /></div>
-              <div class="swiper-slide"><img src="assets/images/portfolio3-2.png" loading="lazy" align="center" class="portfolio-figure-img-vertical" /></div>
-            </figure>
-          </div>
-          <div class="portfolio-description text-300" data-aos="fade-right" data-aos-offset="300">
-            <p class="text-bold">3. 비비드플러스 고객사 모바일페이지 리뉴얼 퍼블리싱</p>
-            <article class="mt-2">비비드플러스로부터 디자인을 받아 고객사 두 곳의 모바일 페이지 리뉴얼 퍼블리싱 작업을 진행하였습니다. 트래픽 제한을 고려해 HTML/CSS/JS 만으로 제작되었으며, 퍼블리싱과 SEO 작업 등을 담당하였습니다.</article>
-            <p class="mt-1">#HTML #CSS #JS #SEO</p>
-            <p>디자인 제외 개발 및 퍼블리싱 담당</p>
-          </div>
+        <div class="text-center">
+          <a data-aos="zoom-in" data-aos-easing="ease-in-out" href="mailto:tkmoon1020@gmail.com" target="_blank" class="icon-container">
+            <div id="emailIcon" class="contacts-icon"></div>
+          </a>
+          <a data-aos="zoom-in" data-aos-easing="ease-in-out" href="https://www.rocketpunch.com/@yoroke" target="_blank" class="icon-container">
+            <div id="rocketpunchIcon" class="contacts-icon"></div>
+          </a>
         </div>
-        <!-- <div class="portfolio-container">
-          <div class="swiper-container box-shadow-default" data-aos="fade-left" data-aos-offset="300">
-            <figure class="portfolio-figure swiper-wrapper">
-              <div class="swiper-slide"><img src="assets/images/portfolio4-1.png" align="center" class="portfolio-figure-img-vertical" /></div>
-              <div class="swiper-slide"><img src="assets/images/portfolio4-2.png" align="center" class="portfolio-figure-img-vertical" /></div>
-              <div class="swiper-slide"><img src="assets/images/portfolio4-3.png" align="center" class="portfolio-figure-img-vertical" /></div>
-              <div class="swiper-slide"><img src="assets/images/portfolio4-4.png" align="center" class="portfolio-figure-img-vertical" /></div>
-            </figure>
-          </div>
-          <div class="portfolio-description text-300" data-aos="fade-right" data-aos-offset="300">
-            <p class="text-bold">3. Opentrack 웹사이트 유지보수</p>
-            <article class="mt-2">Opentrack 웹 기반 교육용 동영상 서비스 플랫폼 프론트엔드 유지보수 업무를 담당하였습니다. 주로 디자이너와 협업하여 UI, 반응형, 터치 제스쳐 지원과 인터랙티브한 UX 구현에 집중하였습니다.</article>
-            <p class="mt-1">#Vue.js #HTML5, #SASS, #Touch_Gesture</p>
-          </div>
-        </div> -->
-      </div>
-    </section>
-    <section id="contacts">
-      <div class="page-title">
-        <h1>CONTACTS</h1>
-      </div>
-      <div class="text-center">
-        <a data-aos="zoom-in" data-aos-easing="ease-in-out" href="mailto:tkmoon1020@gmail.com" target="_blank" class="icon-container">
-          <div id="emailIcon" class="contacts-icon"></div>
-          <!-- Safari bug <img class="contacts-icon" src="assets/images/icon_email.png" alt="email" /> -->
-        </a>
-        <a data-aos="zoom-in" data-aos-easing="ease-in-out" href="https://www.rocketpunch.com/@yoroke" target="_blank" class="icon-container">
-          <div id="rocketpunchIcon" class="contacts-icon"></div>
-          <!-- Safari bug <img class="contacts-icon" src="assets/images/icon_rocketpunch.png" alt="rocketpunch" /> -->
-        </a>
-      </div>
+      </section>
     </section>
     <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init(); // Animate On Scroll Init Code
 
@@ -224,6 +213,14 @@
           });
         })
       }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YN81WN59KZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YN81WN59KZ');
     </script>
   </body>
 </html>
