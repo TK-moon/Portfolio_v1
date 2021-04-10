@@ -265,9 +265,6 @@ body {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
   }
-  .flickity-viewport {
-    /* height: auto !important; */
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -465,7 +462,7 @@ body {
 .grid-containter {
   -ms-grid-column: 1;
   background-color: #fff;
-  height: 550px;
+  height: 600px;
   border-radius: 5px;
   -webkit-transition: all ease-in-out 0.2s 0s;
   transition: all ease-in-out 0.2s 0s;
