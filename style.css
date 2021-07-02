@@ -112,7 +112,7 @@
 
 * {
   font-family: 'Noto Sans KR', 'Nanum Gothic', 'sans-serif';
-  font-display: auto;
+  font-display: swap;
   box-sizing: border-box;
 }
 
