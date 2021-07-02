@@ -5,122 +5,109 @@
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 100;
-  src: url('assets/fonts/noto-sans-kr-v12-latin_korean-100.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans KR Thin'), local('NotoSansKR-Thin'),
-    url('assets/fonts/noto-sans-kr-v12-latin_korean-100.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('assets/fonts/noto-sans-kr-v12-latin_korean-100.woff2')
-      format('woff2'),
     /* Super Modern Browsers */
-      url('assets/fonts/noto-sans-kr-v12-latin_korean-100.woff') format('woff'),
+      url('assets/fonts/noto-sans-kr-v12-latin_korean-100.woff2')
+      format('woff2'),
     /* Modern Browsers */
+      url('assets/fonts/noto-sans-kr-v12-latin_korean-100.woff') format('woff'),
+    /* Safari, Android, iOS */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-100.ttf')
       format('truetype'),
-    /* Safari, Android, iOS */
+    /* Legacy iOS */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-100.svg#NotoSansKR')
-      format('svg'); /* Legacy iOS */
+      format('svg');
 }
 /* noto-sans-kr-300 - latin_korean */
 @font-face {
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 300;
-  src: url('assets/fonts/noto-sans-kr-v12-latin_korean-300.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans KR Light'), local('NotoSansKR-Light'),
-    url('assets/fonts/noto-sans-kr-v12-latin_korean-300.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('assets/fonts/noto-sans-kr-v12-latin_korean-300.woff2')
-      format('woff2'),
     /* Super Modern Browsers */
-      url('assets/fonts/noto-sans-kr-v12-latin_korean-300.woff') format('woff'),
+      url('assets/fonts/noto-sans-kr-v12-latin_korean-300.woff2')
+      format('woff2'),
     /* Modern Browsers */
+      url('assets/fonts/noto-sans-kr-v12-latin_korean-300.woff') format('woff'),
+    /* Safari, Android, iOS */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-300.ttf')
       format('truetype'),
-    /* Safari, Android, iOS */
+    /* Legacy iOS */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-300.svg#NotoSansKR')
-      format('svg'); /* Legacy iOS */
+      format('svg');
 }
 /* noto-sans-kr-regular - latin_korean */
 @font-face {
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/noto-sans-kr-v12-latin_korean-regular.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
-    url('assets/fonts/noto-sans-kr-v12-latin_korean-regular.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */
+    /* Super Modern Browsers */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-regular.woff2')
       format('woff2'),
-    /* Super Modern Browsers */
+    /* Modern Browsers */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-regular.woff')
       format('woff'),
-    /* Modern Browsers */
+    /* Safari, Android, iOS */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-regular.ttf')
       format('truetype'),
-    /* Safari, Android, iOS */
+    /* Legacy iOS */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-regular.svg#NotoSansKR')
-      format('svg'); /* Legacy iOS */
+      format('svg');
 }
 /* noto-sans-kr-500 - latin_korean */
 @font-face {
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 500;
-  src: url('assets/fonts/noto-sans-kr-v12-latin_korean-500.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
-    url('assets/fonts/noto-sans-kr-v12-latin_korean-500.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('assets/fonts/noto-sans-kr-v12-latin_korean-500.woff2')
-      format('woff2'),
     /* Super Modern Browsers */
-      url('assets/fonts/noto-sans-kr-v12-latin_korean-500.woff') format('woff'),
+      url('assets/fonts/noto-sans-kr-v12-latin_korean-500.woff2')
+      format('woff2'),
     /* Modern Browsers */
+      url('assets/fonts/noto-sans-kr-v12-latin_korean-500.woff') format('woff'),
+    /* Safari, Android, iOS */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-500.ttf')
       format('truetype'),
-    /* Safari, Android, iOS */
+    /* Legacy iOS */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-500.svg#NotoSansKR')
-      format('svg'); /* Legacy iOS */
+      format('svg');
 }
 /* noto-sans-kr-700 - latin_korean */
 @font-face {
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 700;
-  src: url('assets/fonts/noto-sans-kr-v12-latin_korean-700.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
-    url('assets/fonts/noto-sans-kr-v12-latin_korean-700.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('assets/fonts/noto-sans-kr-v12-latin_korean-700.woff2')
-      format('woff2'),
     /* Super Modern Browsers */
-      url('assets/fonts/noto-sans-kr-v12-latin_korean-700.woff') format('woff'),
+      url('assets/fonts/noto-sans-kr-v12-latin_korean-700.woff2')
+      format('woff2'),
     /* Modern Browsers */
+      url('assets/fonts/noto-sans-kr-v12-latin_korean-700.woff') format('woff'),
+    /* Safari, Android, iOS */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-700.ttf')
       format('truetype'),
-    /* Safari, Android, iOS */
+    /* Legacy iOS */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-700.svg#NotoSansKR')
-      format('svg'); /* Legacy iOS */
+      format('svg');
 }
 /* noto-sans-kr-900 - latin_korean */
 @font-face {
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 900;
-  src: url('assets/fonts/noto-sans-kr-v12-latin_korean-900.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans KR Black'), local('NotoSansKR-Black'),
-    url('assets/fonts/noto-sans-kr-v12-latin_korean-900.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('assets/fonts/noto-sans-kr-v12-latin_korean-900.woff2')
-      format('woff2'),
     /* Super Modern Browsers */
-      url('assets/fonts/noto-sans-kr-v12-latin_korean-900.woff') format('woff'),
+      url('assets/fonts/noto-sans-kr-v12-latin_korean-900.woff2')
+      format('woff2'),
     /* Modern Browsers */
+      url('assets/fonts/noto-sans-kr-v12-latin_korean-900.woff') format('woff'),
+    /* Safari, Android, iOS */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-900.ttf')
       format('truetype'),
-    /* Safari, Android, iOS */
+    /* Legacy iOS */
       url('assets/fonts/noto-sans-kr-v12-latin_korean-900.svg#NotoSansKR')
-      format('svg'); /* Legacy iOS */
+      format('svg');
 }
 
 * {
@@ -133,9 +120,6 @@ html {
   scroll-behavior: smooth;
   touch-action: manipulation;
   touch-action: pan-y;
-}
-
-:root {
 }
 
 ::selection {
@@ -301,20 +285,8 @@ body {
     margin-bottom: 20px !important;
     text-align: center !important;
   }
-  .grid-containter:nth-child(0) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-  }
-  .grid-containter:nth-child(1) {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-  }
-  .grid-containter:nth-child(2) {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-  }
+
   .grid-contents {
-    /*     clear: both !important; */
     padding: 20px !important;
     word-break: keep-all;
   }
@@ -430,20 +402,8 @@ body {
 }
 
 #about {
-  margin-top: px;
   padding: 50px 100px;
 }
-/*
-#aboutGrid {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  grid-gap: 20px;
-}
-*/
 
 #aboutGrid {
   display: -ms-grid;
@@ -459,30 +419,13 @@ body {
 }
 
 .grid-containter {
-  -ms-grid-column: 1;
   background-color: #fff;
   height: 600px;
   border-radius: 5px;
   -webkit-transition: all ease-in-out 0.2s 0s;
   transition: all ease-in-out 0.2s 0s;
 }
-.grid-containter:nth-child(0) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-}
-.grid-containter:nth-child(1) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-}
-.grid-containter:nth-child(2) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-}
-/*
-.grid-containter:hover {
-  transform: scale(1.08);
-}
-*/
+
 .grid-title {
   height: 50px;
   line-height: 50px;
@@ -495,9 +438,7 @@ body {
   font-weight: 300;
   padding: 10px 30px;
 }
-.grid-contents a {
-  /* display: block; */
-}
+
 .grid-contents ol,
 .grid-contents ul {
   list-style: none;
@@ -572,18 +513,6 @@ figcaption {
   width: 60%;
   font-size: 16px;
 }
-
-/* .swiper-button-next, .swiper-button-prev {
-  color: black !important;
-}
-
-.swiper-button-next::after, .swiper-button-prev::after {
-  font-size: 30px !important;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: black !important;
-} */
 
 #contacts {
   height: 300px;
