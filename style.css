@@ -125,13 +125,14 @@
 
 * {
   font-family: 'Noto Sans KR', 'Nanum Gothic', 'sans-serif';
+  font-display: auto;
   box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
   touch-action: manipulation;
-  /* touch-action: pan-y; */
+  touch-action: pan-y;
 }
 
 :root {
@@ -147,9 +148,7 @@ a {
   color: inherit;
   font-style: normal;
 }
-/* a:hover {
-  text-decoration: underline;
-} */
+
 p {
   margin: 0;
 }
