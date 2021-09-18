@@ -215,8 +215,9 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 999;
 }
-#header::before {
-  position: absolute;
+#header .header-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #header #title {
@@ -342,7 +343,7 @@ body {
 #portfolio {
   padding: 50px 0;
   width: 100%;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   overflow-x: hidden;
 }
