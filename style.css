@@ -409,6 +409,9 @@ figcaption {
   height: 300px;
   margin-bottom: 20px;
 }
+#contacts a:after {
+  display: none;
+}
 .icon-container {
   text-align: center;
   display: inline-block;
