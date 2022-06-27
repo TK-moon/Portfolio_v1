@@ -100,7 +100,6 @@
             <div class="grid-title">PROFILE</div>
             <div class="grid-contents text-300">
               <p class="text-bold">문태경</p>
-              <p>1997. 10. 20 (<span id="age"></span>세)</p>
               <a
                 href="mailto:tkmoon.dev@gmail.com"
                 target="_blank"
@@ -407,10 +406,6 @@
       AOS.init();
 
       window.onload = () => {
-        const year = new Date().getFullYear();
-        const age = year - 1997 + 1
-        document.getElementById('age').innerHTML = age
-
         let element = [...document.getElementsByClassName('swiper-wrapper')];
         element.forEach((item, index) => {
           let flkty = new Flickity(item, {
